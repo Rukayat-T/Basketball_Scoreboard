@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+}
+
+.home
+{
+position: absolute;
+width: 149px;
+height: 36px;
+left: 85px;
+top: 3px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+text-align: center;
+
+color: #EEEEEE;
+ 
+}
+.guest
+{   
+position: absolute;
+width: 149px;
+height: 36px;
+left: 340px;
+top: 3px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+text-align: center;
+
+color: #EEEEEE;   
+}
+
+.home-score
+{
+position: absolute;
+width: 155px;
+height: 120px;
+left: 82px;
+top: 90px;
+
+background: #080001;
+border-radius: 5px;
+
+font-family: 'Cursed Timer ULiL', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+text-align: center;
+
+color: #F94F6D;
+    
+}
+.guest-score
+{
+position: absolute;
+width: 155px;
+height: 120px;
+left: 337px;
+top: 90px;
+
+background: #080001;
+border-radius: 5px;
+
+font-family: 'Cursed Timer ULiL', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+text-align: center;
+
+color: #F94F6D;
+    
+}
+
+.addOneH
+{
+box-sizing: border-box;
+position: absolute;
+width: 45px;
+height: 45px;
+left: 82px;
+top: 230px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+
+background-color: #1B244A;
+font-family: 'Cursed Timer ULiL', sans-serif;
+color: #9AABD8;
+}
+.addTwoH
+{
+box-sizing: border-box;
+position: absolute;
+width: 45px;
+height: 45px;
+left: 136px;
+top: 230px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+    
+background-color: #1B244A;
+font-family: 'Cursed Timer ULiL', sans-serif;
+color: #9AABD8;
+}
+.addThreeH
+{
+box-sizing: border-box;
+position: absolute;
+width: 45px;
+height: 45px;
+left: 192px;
+top: 230px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+background-color: #1B244A;
+font-family: 'Cursed Timer ULiL', sans-serif;
+color: #9AABD8;
+}
+
+.addOneg
+{
+    
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 337px;
+top: 230px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+background-color: #1B244A;
+font-family: 'Cursed Timer ULiL', sans-serif;
+color: #9AABD8;
+}
+.addTwog
+{
+    
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 391px;
+top: 230px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+background-color: #1B244A;
+font-family: 'Cursed Timer ULiL', sans-serif;
+color: #9AABD8;
+}
+
+.addThreeg
+{
+box-sizing: border-box;
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 447px;
+top: 230px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+background-color: #1B244A;
+font-family: 'Cursed Timer ULiL', sans-serif;
+color: #9AABD8;
+}
+
+.reset
+{
+    box-sizing: border-box;
+
+position: absolute;
+width: 150px;
+height: 45px;
+left: 212px;
+top: 300px;
+
+border: 2px solid #9AABD8;
+border-radius: 5px;
+background-color: #1B244A;
+font-family: 'Cursed Timer ULiL', sans-serif;
+color: #9AABD8;
+    
+}
