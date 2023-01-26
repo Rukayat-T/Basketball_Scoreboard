@@ -3,7 +3,7 @@ let guestSc = document.getElementById("guest-sc")
 
 let Hscore = 0
 let Gscore = 0
-let score = 9
+
 
 function addOneH()
 {
